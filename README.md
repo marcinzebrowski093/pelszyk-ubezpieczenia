@@ -4,7 +4,7 @@ This website is my first commercial project for insurance agent on a low budget.
 
 I learned a lot from this project because I worked directly with client and I had to do everything alone from the beginning such as:<br>
 1.  Research for trending designs in the insurance industry<br>
-2.  Get to know client needs, even helped with the content for him<br>
+2.  Get to know client needs, even helped him with the content<br>
 3.  Drawing a project of website layout and discuss all the functionalities<br>
 4.  Make a design in Figma for a client to accept<br>
 5.  Coding<br>
