@@ -1,4 +1,4 @@
-# pelszyk-ubezpieczenia
-My first commercial project for insurance agent
+# marcinubezpieczenia
+responsive website
 
-Website is live currently on https://pelszyk-ubezpieczenia.pl/
+Wszystko jasne

@@ -1,0 +1,6 @@
+telefon po środku
+container na rowni z mapka
+bezpieczny pl na full width
+powiekszyc czcionke na desktop w hero-text
+firmowe ubezpieczenie dac wiekszy padding
+

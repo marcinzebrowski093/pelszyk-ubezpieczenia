@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="author" content="GoldenBees">
+    <meta name="description" content="Marcin Pelszyk Ubezpieczenia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Marcin Pełszyk Ubezpieczenia">
+    <meta property="og:image" content="opengraph.png">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="icon" href="favicon.ico">
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '3449348361839501');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=3449348361839501&ev=PageView&noscript=1" /></noscript>
+</head>
+
+<body>
+    <header>
+        <nav class="navindex">
+            <div class="logo">
+                <a href="index"><img src="czerwone.svg"></a>
+                <div class="tel telindex">
+                    <i class="fa fa-phone"></i>
+                    <a href="tel:+48695701713">695 701 713</a>
+                </div>
+            </div>
+            <label for="btn" class="icon">
+                <span class="fa fa-bars"></span>
+            </label>
+            <input type="checkbox" id="btn">
+            <ul class="ul">
+                <li><a href="index">Start</a></li>
+                <li>
+                    <label for="btn-1" class="show indexshow">Oferta +</label>
+                    <a href="#">Oferta</a>
+                    <input type="checkbox" id="btn-1">
+                    <ul class="submenu">
+                        <li><a href="emerytura">IKE/IKZE</a></li>
+                        <li><a href="zycie">Życie i zdrowie</a></li>
+                        <li><a href="grupowe">Ubezpieczenie firmowe</a></li>
+                        <li class="bezpieczny"><a href="https://bezpieczny.pl/27455">Sprawdź ofertę bezpieczny.pl</a></li>
+                    </ul>
+                </li>
+                <li><a href="omnie">O mnie</a></li>
+                <li><a href="kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="tele-mobile">
+            <a href="tel:+48695701713"><img src="telefon.png"></a>
+        </div>
+        <div class="slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1">
+                        <div class="hero-text heroindex">
+                            <h1>IKE/IKZE</h1>
+                            <h3>- oferta inwestycyjna o różnym stopniu ryzyka<br>
+                                - opcja wskazania osoby uprawnionej do wypłaty środków<br>
+                                - możliwość dokonania częściowego lub całkowitego zwrotu
+                            </h3>
+                            <a href="emerytura">
+                                <button>przejdź do szczegółów</button>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide2">
+                        <div class="hero-text">
+                            <h1>Życie i zdrowie</h1>
+                            <h3>- nawet na 2.000.000 gdyby Cię zabrakło<br>
+                                - ubezpieczenie na życie już od 20zł/miesiąc<br>
+                                - zawarcie polisy 100% zdalnie już teraz
+                            </h3>
+                            <a href="zycie">
+                                <button>przejdź do szczegółów</button>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide3">
+                        <div class="hero-text">
+                            <h1>Ubezpieczenie firmowe</h1>
+                            <h3>- kompleksowa i elastyczna oferta dla firm zatrudniających od 3 osób<br>
+                                - skorzystaj z ponad 50 umów dodatkowych<br>
+                                - ochrona ubezpieczeniowa dla Pracownika i Członków jego rodziny
+                            </h3>
+                            <a href="grupowe">
+                                <button>przejdź do szczegółów</button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </header>
+    <div class="tiles">
+        <div class="title">
+            <h1>Ubezpieczenia</h1>
+        </div>
+        <a href="emerytura">
+            <div class="iketile tile fade-in">
+                <img id="dolar" src="dolar.svg">
+                <h2>IKE/IKZE</h2>
+                <h4>Zadbaj o wysoki standard życia na emeryturze</h4>
+
+            </div>
+        </a>
+        <a href="zycie">
+            <div class="tile zycietile fade-in">
+                <img src="insurance.svg">
+                <h2>Życie i zdrowie</h2>
+                <h4>Ubezpiecz się samodzielnie wybierając wielkość świadczeń</h4>
+            </div>
+        </a>
+        <a href="grupowe">
+            <div class="tile firmowetile fade-in">
+                <img src="grupowe.svg">
+                <h2>Ubezpieczenie firmowe</h2>
+                <h4>Ubezpiecz się samodzielnie wybierając wielkość świadczeń</h4>
+            </div>
+        </a>
+    </div>
+    <div class="bezpiecznypl">
+        <h1 class="fade-in">Moja oferta obejmuje również pakiet ubezpieczeń od bezpieczny.pl!</h1>
+        <h2 class="fade-in">Kup ubezpieczenie od bezpieczny.pl z 10% rabatem.<br>
+            Dzięki użyciu mojego kodu pośrednika zyskujesz na cenie.<br>
+            Wystarczy, że klikniesz w link poniżej i rabat zostanie przydzielony automatycznie<br>
+        </h2>
+        <div class="link fade-in">
+            <a href="https://bezpieczny.pl/27455">
+                <img src="redarrow.svg" class="arrow-left">
+                Kliknij tutaj
+                <img src="whitearrow.svg" class="arrow-right">
+            </a>
+        </div>
+    </div>
+    <div class="omniebackground">
+        <div class="omnie">
+            <div class="foto from-left">
+                <img src="foto.jpg">
+            </div>
+            <div class="opis from-right">
+                <h1>O mnie</h1>
+                <h2>Witaj! Miło mi Cię gościć na stronie pelszyk-ubezpieczenia.pl, gdzie możesz znaleźć szeroką ofertę ubezpieczeń, z którymi bardzo chętnie Ci pomogę.<br><br>
+                    Nazywam się Marcin Pełszyk i od 4 lat specjalizuję się w ubezpieczeniach na życie oraz ubezpieczeniach korporacyjnych.<br><br>
+                    Reprezentuję Generali Towarzystwo Ubezpieczeń S.A. gdzie zajmuję się obsługą i doradztwem w zakresie doboru oferty ubezpieczeń szytej na miarę.<br><br>
+                    Masz pytanie? Chciałbyś/chciałabyś dowiedzieć się więcej ? <br><br>
+                    Zapraszam !</h2>
+                <div class="wrapper">
+                    <a href="omnie" class="readmore">
+                        <button>Czytaj dalej</button>
+                    </a>
+                </div>
+                <a href="tel:+48695701713" class="phoneicon"><i class="fa fa-phone"></i>
+                    <h4>695 701 713</h4>
+                </a><br>
+                <a href="mailto:marcin.pelszyk@sprzedazgenerali.pl">
+                    <i class="fa fa-envelope"></i>
+                    <h4>marcin.pelszyk@sprzedazgenerali.pl</h4>
+                </a><br>
+                <a href="https://www.facebook.com/Pe%C5%82szyk-Ubezpieczenia-107096097851570" class="fbicon"><i class="fa fa-facebook"></i>
+                    <h4>Facebook</h4>
+                </a><br>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="bialystokbackground">
+        <div class="kontakt">
+            <div class="dane">
+
+                <div class="container">
+                    <h3>Marcin Pełszyk Ubezpieczenia</h3>
+                    <h4><span>Warszawska 59, Białystok 15-062</span><br>Pn-Sb | 9:00-20:00</h4>
+                    <a href="tel:+48695701713">
+                        <div class="rewerse">
+                            <i class="fa fa-phone"> 695701713</i>
+                        </div>
+                    </a>
+                    <a href="mailto:marcin.pelszyk@sprzedazgenerali.pl">
+                        <div class="rewerse">
+                            <i class="fa fa-envelope"> marcin.pelszyk@sprzedazgenerali.pl</i>
+                        </div>
+                    </a>
+                </div>
+                <div class="partner">
+                    <h3>Partner:</h3>
+                    <img src="bezpieczny.png">
+                </div>
+            </div>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.8552147022956!2d23.171990215830245!3d53.130744579934344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ffea7cca6df95%3A0xee637825b887d4ae!2sWarszawska%2059%2C%2015-062%20Bia%C5%82ystok!5e0!3m2!1spl!2spl!4v1604938254806!5m2!1spl!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="background">
+        <div class="stopka">
+            <div class="ubezpieczenia">
+                <h1>Ubezpieczenia</h1>
+                <a href="emerytura">IKE/IKZE</a><br>
+                <a href="zycie">Życie i zdrowie</a><br>
+                <a href="firmowe">Ubezpieczenie firmowe</a><br>
+                <a href="https://bezpieczny.pl/27455">Sprawdź ofertę bezpieczny.pl</a>
+            </div>
+            <div class="naskroty">
+                <h1>Na skróty</h1>
+                <a href="index">Start</a><br>
+                <a href="oferta.hmtl">Oferta</a><br>
+                <a href="omnie">O mnie</a><br>
+                <a href="kontakt">Kontakt</a>
+            </div>
+            <div class="socialmedia">
+                <h1>Social Media</h1>
+                <a href="https://www.facebook.com/Pe%C5%82szyk-Ubezpieczenia-107096097851570">Facebook</a><br>
+            </div>
+            <div class="kontaktstopka">
+                <h1>Kontakt</h1>
+                <a href="tel:+48695701713">tel. 695 701 713</a><br>
+                <a href="mailto:marcin.pelszyk@sprzedazgenerali.pl">marcin.pelszyk@sprzedazgenerali.pl</a>
+            </div>
+        </div>
+        <div class="logostopka">
+            <a href="index"><img src="biale.svg"></a>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            speed: 850,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 3750,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            effect: 'fade',
+        });
+    </script>
+    <script>
+
+    </script>
+    <script src="script.js"></script>
+
+
+</body></html>
